@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    gap: 50px;
+} 
+.header-logo{
+    width: 18px;
+    height: 18px;
+    background-color: blue;
+}
+.header .cont-one a{
+    font-size: 1.9rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+.hamburger {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.cont-one{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.header ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 2rem;
+    size: 20px;
+}
+.header a {
+  text-decoration: none;
+  color: #000;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    height: 50px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+@media (max-width: 768px){
+    .cont-two{
+        display: none;
+        position: absolute;
+        top: 100px; /* Position it right below your 100px header */
+        left: 0;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .cont-two.open {
+    display: block; /* This overrides 'display: none' */
+    }
+    .hamburger {
+        display: block;
+    }
+    .cont-two ul {
+        flex-direction: column;
+        padding: 20px;
+        align-items: center; /* Center the links */
+    }
+}

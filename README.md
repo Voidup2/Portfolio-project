@@ -21,15 +21,15 @@ Fully Responsive Design: Optimized for mobile, tablet, and desktop viewing.
 
 This project was built using the following core technologies and libraries. (Please update this section to match your actual stack!)
 
-Category                                           Technology                                                     Description
+Category       ------->                                    Technology                              ------->                       Description
 
-Frontend                                           Main Framework/Library used React                              Core UI library for component development
+Frontend       ------->                                    Main Framework/Library used React       ------->                       Core UI library for component development
 
-Styling                                            Styling Method used custom CSS                                 Utility-first CSS framework used for responsive design
+Styling        ------->                                    Styling Method used custom CSS          ------->                       Utility-first CSS framework used for responsive design
 
-Deployment                                         Hosting Provider used Vercel                                   Platform used for continuous integration and hosting
+Deployment     ------->                                    Hosting Provider used Vercel            ------->                       Platform used for continuous integration and hosting
 
-Language                                           JavaScript (ES6+)                                              Primary programming language used.
+Language       ------->                                    JavaScript (ES6+)                       ------->                       Primary programming language used.
 
 👤 Contact
 
